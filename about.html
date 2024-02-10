@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Form</title>
+</head>
+<body>
+    <form action="/action_page.php">
+        <label for="us.name">Name*</label>
+        <input type="text" id="us.name" name="us.name" placeholder="Name"><br><br>
+        <label for="mail">Email*</label>
+        <input type="text" id="mail" name="mail" placeholder="Email"><br><br>
+        <label for="room">Room Type</label>
+        <select name="select" id="select">
+            <option value="Select">Select</option>
+            <option value="Select">Select 1</option>
+            <option value="Select">Select 2</option>
+        </select><br><br>
+        <label for="date">Arrival Date*</label>
+        <input type="date" name="date" id="date"><br><br>
+        <label for="date">Departure Date*</label>
+        <input type="date" name="date" id="date"><br><br>
+        <label for="guests">Number for guests*</label>
+        <input type="number" id="guests" name="guests"><br><br>
+        <label for="pickup">Free pickup*</label>
+        <input type="radio" name="pickup" id="pickup">
+        <label for="pickup">Yes</label>
+        <input type="radio" name="pickup" id="pickup">
+        <label for="pickup">No</label><br><br>
+        <label for="number">Flight Number</label>
+        <input type="number" id="number" name="number" placeholder="Flight Number"><br><br>
+        <label for="request">Special Requests</label>
+        <textarea name="request" id="request" cols="30" rows="5 placeholder">Type here</textarea><br><br><br>
+        <button type="submit">Submit</button>
+    </form>
+    
+
+
+
+
+    
+</body>
+</html>
